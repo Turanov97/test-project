@@ -1,0 +1,148 @@
+@media (max-width:1024px) {
+   .intro__blog img {
+      width: 100%;
+      object-fit: contain;
+      height: auto;
+   }
+
+   .intro__blog__photo img {
+      width: 60%;
+   }
+
+   .intro__blog__item {
+      left: 100px;
+   }
+
+   .intro__blog__item1 {
+      bottom: 160px;
+   }
+
+   .intro__blog__item2 {
+      padding-right: 70px;
+   }
+
+   .intro__title {
+      font-size: 50px;
+   }
+
+}
+
+@media (max-width:991px) {
+   .header {
+      padding: 10px 0;
+   }
+
+   .header__nav {
+      display: none;
+   }
+
+   .header__phone {
+      display: none;
+   }
+
+   .menu__btn {
+      display: flex;
+   }
+
+   .swiper-button-next:after, .swiper-button-prev:after {
+      font-size: 20px;
+   }
+}
+
+@media (max-width:769px) {
+   .intro__blog img {
+      width: 100%;
+      object-fit: contain;
+      height: auto;
+   }
+
+   .intro__blog__photo img {
+      width: 60%;
+   }
+
+
+
+   .intro__blog__item1 {
+      left: 20px;
+   }
+
+   .intro__blog__item2 {
+      right: 200px;
+      padding-right: 70px;
+   }
+
+   .intro__title {
+      font-size: 50px;
+   }
+
+}
+
+@media (max-width:426px) {
+   .intro__title {
+      font-size: 26px;
+   }
+
+   .intro {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column-reverse;
+   }
+
+   .intro__content {
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      padding-bottom: 40px;
+   }
+ 
+
+   .intro__blog {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+   }
+   .intro__img{
+      margin-bottom: 20px;
+   }
+
+   .intro__blog__item {
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      position: relative;
+      margin-bottom: 20px;
+   }
+
+   .intro__blog__item1 {
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      margin-bottom: 20px;
+      position: relative;
+
+   }
+
+   .intro__blog__item2 {
+      left: 0;
+      top: 0;
+      right: 0;
+      margin-bottom: 20px;
+      bottom: 0;
+      position: relative;
+
+   }
+
+
+   .intro__text {
+      width: 100%;
+      font-size: 14px;
+   }
+
+   .btn {
+      font-size: 14px;
+   }
+}
