@@ -145,4 +145,15 @@
    .btn {
       font-size: 14px;
    }
+
+   /* tabs  */
+   .tabs__nav {
+      align-items: center;
+      flex-direction: column;
+   }
+   .tabs__nav__btn{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+   }
 }
